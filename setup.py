@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'keyboard'
+package_name = 'go2w_keyboard'
 
 setup(
     name=package_name,
