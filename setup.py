@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'sport_controller = keyboard.go2_sport_controller:main',
-            'teleop = keyboard.go2_teleop:main',
+            'sport_controller = go2w_keyboard.go2_sport_controller:main',
+            'teleop = go2W_keyboard.go2_teleop:main',
         ],
     },
 )
