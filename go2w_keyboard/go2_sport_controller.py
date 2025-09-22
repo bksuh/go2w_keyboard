@@ -42,7 +42,7 @@ class Go2SportControllerNode(Node):
         # '/test_option_id' 토픽을 구독하는 Subscriber 생성
         self.subscription = self.create_subscription(
             Twist,
-            'go2_sport_vel',
+            'cmd_vel',
             self.command_callback,
             10)
         self.get_logger().info("ROS 2 node started. Waiting for commands on /go2_sport_vel topic...")
